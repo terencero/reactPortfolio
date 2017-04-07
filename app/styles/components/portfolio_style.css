@@ -1,0 +1,117 @@
+/* portfolio div wrapper dimensions */
+
+.portfolio-wrapper div {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.portfolio-wrapper {
+	width: 650px;
+}
+
+.portfolio-wrapper div {
+	width: 245px;
+	height: 116px;
+	margin: 18px;
+}
+
+/* background images for each porfolio */
+
+#hangman {
+	background-image: url("../images/abstract_1.jpg");
+}
+
+#rpg {
+	background-image: url("../images/abstract_2.jpg");
+}
+
+#trivia {
+	background-image: url("../images/abstract_3.jpg");
+}
+
+#rutgers {
+	background-image: url("../images/abstract_4.jpg");
+}
+
+#rock {
+	background-image: url("../images/abstract_5.jpg");
+}
+
+/* portfolio label properties and positioning */
+
+.label h3 {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	margin-top: 72px;
+	padding: 8px;
+}
+
+/* links properties */
+
+.portfolio-wrapper a {
+	text-decoration: none;
+}
+
+.portfolio-wrapper a:link {
+	color: white;
+}
+
+.portfolio-wrapper a:visited {
+	color: none;
+}
+
+.portfolio-wrapper a:hover {
+	color: white;
+}
+
+.portfolio-wrapper a:focus {
+	color: white;
+}
+
+.portfolio-wrapper a:active {
+	color: white;
+}
+
+/* portfolio @media queries */
+
+@media screen and (max-width: 980px) {
+	.portfolio-wrapper {
+		width: 245px;
+	}
+
+	.portfolio-wrapper div {
+		margin: 18px auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.portfolio-wrapper {
+		width: 567px;
+		display: inline-block;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.portfolio-wrapper div {
+		position: relative;
+		display: inline-block;
+		float: left;
+		margin: 6px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.portfolio-wrapper {
+		min-width: 245px;
+		max-width: 245px;
+		display: block;	
+	}
+
+	.portfolio-wrapper div {
+		margin: 18px auto;
+		float: none;
+		display: inline-block;
+	}
+}
