@@ -1,20 +1,24 @@
 import * as React from 'react';
+import { Layout, Row, Col } from 'antd';
+const Content = Layout;
 
 class About extends React.Component {
     render() {
         return (
-            <div class="container">
-            <div class="row" id="main">
-                <div class="col-lg-12">
-                    <img class="img-responsive center-block" src="img/terence.jpeg" width="200" alt="profile pic of Terence" />
-                    <div class="intro-text">
+            
+            <div className='about-content' id='main'>
+            <Row>
+                <Col xs={24}>
+                    <img className='img-responsive center-block' src='./img/terenceportrait.png' width='200' alt='profile pic of Terence' />
+                    <div className="intro-text">
                         <span><h1><bold>Terence Ro</bold></h1></span>
                         <hr />
                         <span><p>Life Long Learner - Web Developer - Web Engineer</p></span>
                     </div>
-                </div>
+                    </Col>
+                    </Row>
             </div>
-        </div>
+        
         );
     }
 }

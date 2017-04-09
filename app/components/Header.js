@@ -1,19 +1,33 @@
 import * as React from 'react';
 import { Link } from 'react-router';
+import { Layout, Menu, Breadcrumb } from 'antd';
+const { Header, Sider } = Layout;
 
-class Header extends React.Component {
+class NavHeader extends React.Component {
     render() {
         return (
-            <div className="header">
-                <ul>
-                    <li>Terence Ro</li>
-                    <li><Link to='/about' activeClassName='active' >About</Link></li>
-                    <li><Link to='/portfolio' activeClassName='active'>Portfolio</Link></li>
-                    {/*<li><Link to='' activeClassName='active'>Contact</Link></li>*/}
-                </ul>
-            </div>
+           <Layout>
+                <Sider
+                    breakpoint="md"
+                    collapsedWidth="0"
+                    onCollapse={(collapsed, type) => { console.log(collapsed, type); }}
+                >
+                <Header className='header'>
+                    <div className='logo' src='./img/pencilsketch.png'>
+                        <ul>
+                            <li>
+                                <Link to='/about' activeClassName='active' >About</Link>
+                            </li>
+                            <li>
+                                <Link to='/portfolio' activeClassName='active'>Portfolio</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </Header>
+                </Sider>
+            </Layout>
         );
     }
 }
 
-export { Header };
+export { NavHeader };

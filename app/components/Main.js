@@ -1,18 +1,23 @@
 import * as React from 'react';
-import { Header } from './Header';
-import { Footer } from './Footer';
-
+import { NavHeader } from './Header';
+import { MainFooter } from './Footer';
+import { Layout } from 'antd';
+const { Content } = Layout;
 
 class Main extends React.Component {
     render() {
         return (
+            <Layout>
             <div>
-                <Header />
-                <div className="wrapper">
-                    {this.props.children}
+                <div>
+                <NavHeader />
                 </div>
-                <Footer />
+                <Content className="main-content">
+                    {this.props.children}
+                </Content>
+                <MainFooter />
             </div>
+            </Layout>
         );
     }
 }
