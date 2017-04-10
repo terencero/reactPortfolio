@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
                         </Col>
 
                         <Col sm={24} md={8}>
-                            <Card title='Lively' bordered={false}>
+                            <Card title='LIRI' bordered={false}>
                                 <div className='custom-image'>
                                     <img alt='example' width='100%' src='img/portfolio/abstract_2.jpg' />
                                 </div>
