@@ -13,7 +13,7 @@ class NavHeader extends React.Component {
                     onCollapse={(collapsed, type) => { console.log(collapsed, type); }}
                 >
                 <Header className='header'>
-                    <div className='logo' src='./public/img/pencilsketch.png'>
+                    <div className='logo' src='../public/img/pencilsketch.png'>
                         <ul>
                             <li>
                                 <Link to='/about' activeClassName='active' >About</Link>

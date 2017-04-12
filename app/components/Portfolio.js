@@ -19,7 +19,7 @@ class Portfolio extends React.Component {
                         <Col sm={24} md={8}>
                             <Card title='Lively' bordered={false}>
                                 <div className='custom-image'>
-                                    <img alt='example' width='100%' src='./public/img/lively.png' />
+                                    <img alt='example' width='100%' src='../public/img/lively.png' />
                                 </div>
                                 <p>Lively is a webapp that teaches you how to boost your energy levels everyday through healthy
                                 food and exercise suggestions. It is mobile responsive.</p>
@@ -31,7 +31,7 @@ class Portfolio extends React.Component {
                         <Col sm={24} md={8}>
                             <Card title='LIRI' bordered={false}>
                                 <div className='custom-image'>
-                                    <img alt='example' width='100%' src='./public/img/portfolio/abstract_2.jpg' />
+                                    <img alt='example' width='100%' src='../public/img/portfolio/abstract_2.jpg' />
                                 </div>
                                 <p>Welcome to LIRI! LIRI is a CLI app that will let you know:</p>
                                 <ol>
@@ -47,7 +47,7 @@ class Portfolio extends React.Component {
                         <Col sm={24} md={8}>
                             <Card title='Lively' bordered={false}>
                                 <div className='custom-image'>
-                                    <img alt='example' width='100%' src='./public/img/portfolio/abstract_3.jpg' />
+                                    <img alt='example' width='100%' src='../public/img/portfolio/abstract_3.jpg' />
                                 </div>
                                 <p>Bamazon is a node app that simulates an online store front. Simply run the bamazonCustomer.js
                                 file in your terminal to act as the customer or bamazonManager.js to act as the manager.

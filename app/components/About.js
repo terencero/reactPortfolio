@@ -9,7 +9,7 @@ class About extends React.Component {
             <div className='about-content' id='main'>
             <Row>
                 <Col xs={24}>
-                    <img className='img-responsive center-block' src='./public/img/terenceportrait.png' width='200' alt='profile pic of Terence' />
+                    <img className='img-responsive center-block' src='../public/img/terenceportrait.png' width='200' alt='profile pic of Terence' />
                     <div className="intro-text">
                         <span><h1><bold>Terence Ro</bold></h1></span>
                         <hr />
