@@ -3,10 +3,7 @@
     width: 100%;
     display: inline-block;
     z-index: 1;
-}
-
-.header {
-  background: #c1cad8;
+    background: #c1cad8;
 }
 
 .header ul {

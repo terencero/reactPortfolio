@@ -22,7 +22,7 @@ module.exports = {
           // These are the specific transformations we'll be using.
           presets: ["react", "es2015"],
           plugins: [
-            ["import", { libraryName: "antd", style: 'css' }]
+            ["import", { libraryName: "antd", style: false }]
           ]
         }
       },

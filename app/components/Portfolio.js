@@ -6,7 +6,7 @@ import { Layout } from 'antd';
 class Portfolio extends React.Component {
     render() {
         return (
-            <section classNameName='portfolio-section'>
+            <section className='portfolio-section'>
                 <div>
                     <Row>
                         <Col xs={24}>
